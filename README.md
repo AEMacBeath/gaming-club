@@ -1,6 +1,6 @@
 # Gamers Club
 
-The Gamers Club website is a landing pages for Shetland based adults, over 18, looking a local gaming club. 
+The Gamers Club website is a landing pages for Shetland based adults, over 18, looking for a local gaming club. 
 The Gaming Club offers a social, challenging and fun environment for people looking to team up or compete with others.
 
 The website users will be able to find information about the club, event times, contact details and sign up to the club. 
