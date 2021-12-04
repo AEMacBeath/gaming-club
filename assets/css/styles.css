@@ -16,10 +16,12 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-/* header, logo and nav */
+/* header, logo and menu */
 
 header {
     background-color: black;
+    position: relative;
+    min-height: 60px;
 }
 
 header a {
@@ -27,21 +29,64 @@ header a {
     color: white;
 }
 
-/* #logo {
-    float: left;
-} */
-
-#menu {
-    float: right;
+#logo {
+    padding-left: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 225%;
 }
 
+#menu {
+    padding-right: 10px;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    font-size: 100%;
+}
 
+#menu li {
+    display: inline;
+    padding-right: 10px;
+}
 
+/* media queries */
 
+/* large - max-width 1200px*/
 
+/* medium max-width 1007px*/
+@media screen and (max-width: 1007px){
+    header {
+    min-height: 40px;
+    }
 
+    #logo {
+        font-size: 150%;
+    }
 
+    #menu {
+        font-size: 75%;
+    }
+}
 
+/* small - max-width 640px*/
+@media screen and (max-width: 640px){
+    header {
+        min-height: 40px;
+        }
 
+    #logo {
+        font-size: 125%;
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        padding-left: 0;
+    }
 
-
+    #menu {
+        font-size: 75%;
+        position: absolute;
+        bottom: 2px;
+        left: 2px;
+    }
+}
