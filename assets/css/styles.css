@@ -75,7 +75,7 @@ footer a {
 
 /* responsive design - medium max-width 1007px*/
 @media screen and (max-width: 1007px){
-    header {
+    header, footer{
     min-height: 40px;
     }
 
@@ -83,14 +83,14 @@ footer a {
         font-size: 150%;
     }
 
-    #menu {
+    #menu, #social {
         font-size: 75%;
     }
 }
 
 /* responsive design - small - max-width 640px*/
 @media screen and (max-width: 640px){
-    header {
+    header, footer {
         min-height: 40px;
         }
 
@@ -102,7 +102,7 @@ footer a {
         padding-left: 0;
     }
 
-    #menu {
+    #menu, #social {
         font-size: 75%;
         position: absolute;
         bottom: 2px;
