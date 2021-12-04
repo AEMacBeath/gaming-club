@@ -11,13 +11,11 @@ body {
 }
 
 /* headings */
-
 h1, h2 {
     text-transform: uppercase;
 }
 
-/* header, logo and menu */
-
+/* header, logo and navigation */
 header {
     background-color: black;
     position: relative;
@@ -50,11 +48,32 @@ header a {
     padding-right: 10px;
 }
 
-/* media queries */
+/* footer */
+footer {
+    background-color: black;
+    position: relative;
+    min-height: 60px;
+}
 
-/* large - max-width 1200px*/
+footer a {
+    text-decoration: none;
+    color: white;
+}
 
-/* medium max-width 1007px*/
+#social {
+    padding-right: 10px;
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+    font-size: 100%;
+}
+
+#social li {
+    display: inline;
+    padding-right: 10px;
+}
+
+/* responsive design - medium max-width 1007px*/
 @media screen and (max-width: 1007px){
     header {
     min-height: 40px;
@@ -69,7 +88,7 @@ header a {
     }
 }
 
-/* small - max-width 640px*/
+/* responsive design - small - max-width 640px*/
 @media screen and (max-width: 640px){
     header {
         min-height: 40px;

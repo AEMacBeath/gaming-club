@@ -35,4 +35,6 @@ forms work
 
 ## Credits
 
- <!-- subscetions - content, media etc. links to source -->
+### Content
+
+- The icons used in the footer are from https://fontawesome.com/v4.7/
