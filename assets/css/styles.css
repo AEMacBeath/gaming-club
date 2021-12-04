@@ -11,7 +11,8 @@ body {
 }
 
 /* headings */
-h1, h2 {
+h1,
+h2 {
     text-transform: uppercase;
 }
 
@@ -48,6 +49,35 @@ header a {
     padding-right: 10px;
 }
 
+/* hero images */
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+
+#hero-image-left {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#hero-image-left img {
+    width: 100%;
+    height: 100%;
+}
+
+#hero-image-right {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+#hero-image-right img {
+    width: 100%;
+    height: 100%;
+}
+
 /* footer */
 footer {
     background-color: black;
@@ -74,25 +104,33 @@ footer a {
 }
 
 /* responsive design - medium max-width 1007px*/
-@media screen and (max-width: 1007px){
-    header, footer{
-    min-height: 40px;
+@media screen and (max-width: 1007px) {
+
+    header,
+    footer {
+        min-height: 40px;
     }
 
     #logo {
         font-size: 150%;
     }
 
-    #menu, #social {
+    #menu,
+    #social {
         font-size: 75%;
+    }
+
+    #hero-image {
+        height: 300px;
+        width: 100%;
     }
 }
 
 /* responsive design - small - max-width 640px*/
-@media screen and (max-width: 640px){
+@media screen and (max-width: 640px) {
     header, footer {
         min-height: 40px;
-        }
+    }
 
     #logo {
         font-size: 125%;
@@ -107,5 +145,16 @@ footer a {
         position: absolute;
         bottom: 2px;
         left: 2px;
+    }
+
+    #hero-image {
+        height: 200px;
+        width: 100%;
+    }
+
+    #hero-image-left, #hero-image-right {
+        float: none;
+        width: 100%;
+        height: 100%;
     }
 }
