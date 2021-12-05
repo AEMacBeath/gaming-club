@@ -38,3 +38,4 @@ forms work
 ### Content
 
 - The icons used in the footer are from https://fontawesome.com/v4.7/
+- All images taken from https://www.pexels.com/
