@@ -58,15 +58,16 @@ header a {
     left: 0;
     background-color: rgba(0, 0, 139, 0.5);
     width: 60%;
+    text-align: right;
 }
 
 #welcome h2 {
-    margin-left: 10px;
+    margin-right: 10px;
     font-size: 150%;
 }
 
 #welcome p {
-    margin-left: 10px;
+    margin-right: 10px;
     font-size: 100%;
 }
 
@@ -109,15 +110,16 @@ header a {
     float: left;
     height: 100%;
     width: 60%;
+    text-align: right;
 }
 
 #goal-text h3 {
-    margin-left: 10px;
+    margin: 10px, 10px, auto, auto;
     font-size: 150%;
 }
 
 #goal-text p {
-    margin-left: 10px;
+    margin: auto, 10px, 10px, auto;
     font-size: 100%;
 }
 
