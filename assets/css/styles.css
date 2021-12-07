@@ -73,32 +73,35 @@ header a {
 
 /* hero images */
 #hero-image {
-    position: relative;
+    /* position: relative; */
     height: 400px;
     width: 100%;
+    background: url(../images/chess.webp) no-repeat center;
 }
 
-#hero-image-left {
+/* #hero-image-left {
     float: left;
     width: 50%;
     height: 100%;
-}
+    background: url(../images/)
+} */
 
-#hero-image-left img {
+/* #hero-image-left img {
     width: 100%;
     height: 100%;
-}
+} */
 
-#hero-image-right {
+/* #hero-image-right {
     float: right;
     width: 50%;
     height: 100%;
-}
+    background: url(../images/score-board.jpeg) no-repeat right;
+} */
 
-#hero-image-right img {
+/* #hero-image-right img {
     width: 100%;
     height: 100%;
-}
+} */
 
 /* club goals */
 #goals {
