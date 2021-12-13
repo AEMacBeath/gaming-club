@@ -35,7 +35,7 @@ header a {
     position: absolute;
     top: 2px;
     left: 4px;
-    font-size: 110%;
+    font-size: 125%;
 }
 
 #menu {
@@ -70,7 +70,7 @@ header a {
 #welcome h2 {
     padding-right: 4px;
     padding-bottom: 5px;
-    font-size: 110%;
+    font-size: 120%;
 }
 
 #welcome p {
@@ -78,29 +78,41 @@ header a {
 }
 
 /* club goals */
-#goals {
-    position: relative;
-    height: 500px;
+#goals h2 {
+    padding-left: 4px;
+    padding-bottom: 5px;
+    font-size: 120%;
+}
+
+#goals p {
+    padding-left: 4px;
+    padding-bottom: 10px;
+}
+
+#goals-games {
+    height: 100px;
     width: 100%;
     background-color: rgba(0, 0, 139, 0.5);
 }
 
-.goals h2 {
-    font-size: 110%;
-    padding-left: 4px;
+#goals-social {
+    height: 100px;
+    width: 100%;
+    text-align: right;
 }
 
-.goals p {
-    font-size: 75%;
-    padding-left: 4px;
-    padding-bottom: 20px;
+#goals-skills {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 139, 0.5);
 }
 
 /* footer */
 footer {
     position: relative;
-    min-height: 60px;
+    height: 50px;
     width: 100%;
+    background-color: rgba(0, 0, 139, 0.5);
 }
 
 footer a {
