@@ -100,32 +100,6 @@ header a {
     padding-bottom: 20px;
 }
 
-.goals-right {
-    text-align: right;
-}
-.goals-right h2 {
-    font-size: 110%;
-    padding-right: 4px;
-}
-
-.goals-right p {
-    font-size: 75%;
-    padding-right: 4px;
-    padding-bottom: 20px;
-}
-
-.goals-center {
-    text-align: center;
-}
-.goals-center h2 {
-    font-size: 110%;
-}
-
-.goals-center p {
-    font-size: 75%;
-    padding-bottom: 20px;
-}
-
 /* footer */
 footer {
     position: relative;
