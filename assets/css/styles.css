@@ -85,16 +85,12 @@ header a {
     background-color: rgba(0, 0, 139, 0.5);
 }
 
-.goals-left {
-    text-align: left;
-}
-
-.goals-left h2 {
+.goals h2 {
     font-size: 110%;
     padding-left: 4px;
 }
 
-.goals-left p {
+.goals p {
     font-size: 75%;
     padding-left: 4px;
     padding-bottom: 20px;
