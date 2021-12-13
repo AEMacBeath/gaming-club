@@ -9,7 +9,14 @@ The website users will be able to find information about the club, event times, 
 
 ## Features
 
-<!-- add features - what it does, benefits, screenshots -->
+- Header with site logo and navigation.
+- Image of a chess board with all pieces set up as the landing page main image.
+- Welcome banner in the bottom left of the main image.
+- Club goals section explaining, briefly, what the club is about.
+- Contract details <!-- to be added -->
+- Sign up form <!-- to be added -->
+
+<!-- add what it does, benefits, screenshots for all features-->
 
 ## Testing
 
