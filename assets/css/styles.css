@@ -109,7 +109,8 @@ header a {
 
 /* footer */
 footer {
-    position: relative;
+    position: fixed;
+    bottom: 0;
     height: 50px;
     width: 100%;
     background-color: rgba(0, 0, 139, 0.5);
@@ -133,37 +134,26 @@ footer a {
     padding-right: 10px;
 }
 
-/* responsive design - medium max-width 1007px*/
-/* @media screen and (max-width: 1007px) {
-
-    header, footer {
-        min-height: 40px;
-    }
-
-    #logo {
-        font-size: 150%;
-    }
-
-    #menu, #social {
-        font-size: 75%;
-    }
-
-    #hero-image {
-        height: 300px;
-    }
-
-    #intro {
-        position: absolute;
-        top: 275px;
+/* responsive design - medium 640px - 1007px*/
+@media screen and (min-width: 640px) {
+    #goals-games {
+        height: 100px;
+        width: 60%;
+        margin: 0 10%;
+        background-color: rgba(0, 0, 139, 0.5);
     }
     
-    #intro h2 {
-        margin-left: 10px;
-        font-size: 125%;
+    #goals-social {
+        height: 100px;
+        width: 60%;
+        margin: 0 30%;
+        text-align: right;
     }
     
-    #intro p {
-        margin-left: 10px;
-        font-size: 75%;
+    #goals-skills {
+        height: 100px;
+        width: 60%;
+        margin: 0 10%;
+        background-color: rgba(0, 0, 139, 0.5);
     }
-} */
+}
