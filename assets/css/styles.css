@@ -18,34 +18,34 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 
-/* header, logo and navigation */
-header {
+/* header and footer */
+header, footer {
     position: relative;
     height: 50px;
     width: 100%;
     background-color: rgba(0, 0, 139, 0.7);
 }
 
-header a {
+header a, footer a {
     text-decoration: none;
     color: white;
 }
 
-#logo {
+.logo {
     position: absolute;
     top: 2px;
     left: 4px;
     font-size: 125%;
 }
 
-#menu {
+#menu, #social {
     position: absolute;
     bottom: 2px;
     left: 4px;
     font-size: 75%;
 }
 
-#menu li {
+#menu li, #social li {
     display: inline;
     padding-right: 4px;
 }
@@ -128,33 +128,6 @@ header a {
     border-radius: 0px 50px 50px 0px;
     background: url(../images/gamers-skills.jpeg) no-repeat center/cover;
     margin: 10px 0px;
-}
-
-/* footer */
-footer {
-    position: relative;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    background-color: rgba(0, 0, 139, 0.5);
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
-#social {
-    padding-right: 10px;
-    position: absolute;
-    bottom: 4px;
-    right: 0;
-    font-size: 100%;
-}
-
-#social li {
-    display: inline;
-    padding-right: 10px;
 }
 
 /* responsive design - medium 640px - 1007px*/
