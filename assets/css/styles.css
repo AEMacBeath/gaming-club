@@ -54,7 +54,7 @@ header a {
 #hero-image {
     height: 300px;
     width: 100%;
-    background: url(../images/chess.webp) no-repeat center top;
+    background: url(../images/arcade-entrance.jpeg) no-repeat top center;
 }
 
 /* Welcome */
@@ -80,7 +80,7 @@ header a {
 #info {
     position: relative;
     height: 600px;
-    background-color: green;
+    /* background-color: rgba(0, 0, 139, 0.7); */
 }
 
 #info h3 {
@@ -100,25 +100,32 @@ header a {
     background-color: rgba(0, 0, 139, 0.7);
     width: 80%;
     height: 100px;
-    margin: 50px 0px;
+    margin: 100px 0px 0px;
 }
 
 #info-container-games {
     position: relative;
     height: 200px;
-    background: url(#) center center no-repeat;
+    border: 10px solid rgba(0, 0, 139, 0.7);
+    border-radius: 50px 0px;
+    background: black url(../images/nintendo-controller.jpeg) no-repeat bottom/80%;
 }
 
 #info-container-social {
     position: relative;
     height: 200px;
-    background: url(#) top center no-repeat;
+    border: 10px solid rgba(0, 0, 139, 0.7);
+    border-radius: 0px 50px;
+    background: url(../images/gamers-celebrating.jpeg) no-repeat center/cover;
+    margin: 10px 0px;
 }
 
 #info-container-skills {
     position: relative;
     height: 200px;
-    background: url(#) top right no-repeat;
+    border: 10px solid rgba(0, 0, 139, 0.7);
+    border-radius: 50px 0px;
+    background: url(../images/gamers-helping.jpeg) no-repeat center/100%;
 }
 
 /* footer */
