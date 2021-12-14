@@ -54,7 +54,7 @@ header a {
 #hero-image {
     height: 300px;
     width: 100%;
-    background: url(../images/arcade-entrance.jpeg) no-repeat top center;
+    background: url(../images/monopoly.jpeg) no-repeat bottom/cover;
 }
 
 /* Welcome */
@@ -79,7 +79,7 @@ header a {
 /* club information */
 #info {
     position: relative;
-    height: 600px;
+    height: 700px;
 }
 
 #info h3 {
@@ -117,7 +117,7 @@ header a {
     height: 200px;
     border: 10px solid rgba(0, 0, 139, 0.7);
     border-radius: 0px 50px 50px 0px;
-    background: url(../images/gamers-celebrating.jpeg) no-repeat center/cover;
+    background: url(../images/gamers-social.jpeg) no-repeat center/cover;
     margin: 10px 0px;
 }
 
@@ -126,13 +126,13 @@ header a {
     height: 200px;
     border: 10px solid rgba(0, 0, 139, 0.7);
     border-radius: 0px 50px 50px 0px;
-    background: url(../images/gamers-helping.jpeg) no-repeat center/100%;
+    background: url(../images/gamers-skills.jpeg) no-repeat center/cover;
     margin: 10px 0px;
 }
 
 /* footer */
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     height: 50px;
     width: 100%;
