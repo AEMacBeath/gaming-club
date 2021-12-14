@@ -80,7 +80,6 @@ header a {
 #info {
     position: relative;
     height: 600px;
-    /* background-color: rgba(0, 0, 139, 0.7); */
 }
 
 #info h3 {
@@ -98,24 +97,26 @@ header a {
     position: absolute;
     top: 0;
     background-color: rgba(0, 0, 139, 0.7);
-    width: 80%;
-    height: 100px;
-    margin: 100px 0px 0px;
+    width: 100%;
+    height: 80px;
+    margin: 120px 0px 0px;
+    border-radius: 0px 0px 40px 0px;
 }
 
 #info-container-games {
     position: relative;
     height: 200px;
     border: 10px solid rgba(0, 0, 139, 0.7);
-    border-radius: 50px 0px;
+    border-radius: 0px 50px 50px 0px;
     background: black url(../images/nintendo-controller.jpeg) no-repeat bottom/80%;
+    margin: 10px 0px;
 }
 
 #info-container-social {
     position: relative;
     height: 200px;
     border: 10px solid rgba(0, 0, 139, 0.7);
-    border-radius: 0px 50px;
+    border-radius: 0px 50px 50px 0px;
     background: url(../images/gamers-celebrating.jpeg) no-repeat center/cover;
     margin: 10px 0px;
 }
@@ -124,8 +125,9 @@ header a {
     position: relative;
     height: 200px;
     border: 10px solid rgba(0, 0, 139, 0.7);
-    border-radius: 50px 0px;
+    border-radius: 0px 50px 50px 0px;
     background: url(../images/gamers-helping.jpeg) no-repeat center/100%;
+    margin: 10px 0px;
 }
 
 /* footer */
