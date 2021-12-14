@@ -23,7 +23,7 @@ header {
     position: relative;
     height: 50px;
     width: 100%;
-    background-color: rgba(0, 0, 139, 0.5);
+    background-color: rgba(0, 0, 139, 0.7);
 }
 
 header a {
@@ -52,18 +52,17 @@ header a {
 
 /* hero images */
 #hero-image {
-    height: 400px;
+    height: 300px;
     width: 100%;
-    background: url(../images/chess.webp) no-repeat center;
+    background: url(../images/chess.webp) no-repeat center top;
 }
 
 /* Welcome */
 #welcome {
-    position: absolute;
-    top: 375px;
-    height: 50px;
+    position: relative;
+    bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 139, 0.5);
+    background-color: rgba(0, 0, 139, 0.7);
     text-align: right;
 }
 
@@ -77,34 +76,49 @@ header a {
     padding-right: 4px;
 }
 
-/* club goals */
-#goals h2 {
-    padding-left: 4px;
+/* club information */
+#info {
+    position: relative;
+    height: 600px;
+    background-color: green;
+}
+
+#info h3 {
+    padding: 0px 4px 5px;
     padding-bottom: 5px;
     font-size: 120%;
 }
 
-#goals p {
-    padding-left: 4px;
-    padding-bottom: 10px;
+#info p {
+    padding: 0px 4px;
+    font-size: 80%;
 }
 
-#goals-games {
+.info-text {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 139, 0.7);
+    width: 80%;
     height: 100px;
-    width: 100%;
-    background-color: rgba(0, 0, 139, 0.5);
+    margin: 50px 0px;
 }
 
-#goals-social {
-    height: 100px;
-    width: 100%;
-    text-align: right;
+#info-container-games {
+    position: relative;
+    height: 200px;
+    background: url(#) center center no-repeat;
 }
 
-#goals-skills {
-    height: 100px;
-    width: 100%;
-    background-color: rgba(0, 0, 139, 0.5);
+#info-container-social {
+    position: relative;
+    height: 200px;
+    background: url(#) top center no-repeat;
+}
+
+#info-container-skills {
+    position: relative;
+    height: 200px;
+    background: url(#) top right no-repeat;
 }
 
 /* footer */
@@ -135,25 +149,3 @@ footer a {
 }
 
 /* responsive design - medium 640px - 1007px*/
-@media screen and (min-width: 640px) {
-    #goals-games {
-        height: 100px;
-        width: 60%;
-        margin: 0 10%;
-        background-color: rgba(0, 0, 139, 0.5);
-    }
-    
-    #goals-social {
-        height: 100px;
-        width: 60%;
-        margin: 0 30%;
-        text-align: right;
-    }
-    
-    #goals-skills {
-        height: 100px;
-        width: 60%;
-        margin: 0 10%;
-        background-color: rgba(0, 0, 139, 0.5);
-    }
-}
