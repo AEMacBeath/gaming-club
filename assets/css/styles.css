@@ -116,7 +116,7 @@ header a, footer a {
     position: relative;
     height: 200px;
     border: 10px solid rgba(0, 0, 139, 0.7);
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 0px 50px 0px 50px;
     background: url(../images/gamers-social.jpeg) no-repeat center/cover;
     margin: 10px 0px;
 }
@@ -125,9 +125,21 @@ header a, footer a {
     position: relative;
     height: 200px;
     border: 10px solid rgba(0, 0, 139, 0.7);
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 50px 0px 0px 50px;
     background: url(../images/gamers-skills.jpeg) no-repeat center/cover;
     margin: 10px 0px;
+}
+
+#info-social-text {
+    text-align: center;
+    margin: 120px 0px 0px;
+    border-radius: 0px 0px 0px 40px;
+}
+
+#info-skills-text {
+    text-align: right;
+    margin: 120px 0px 0px;
+    border-radius: 0px 0px 0px 40px;
 }
 
 /* responsive design medium devices - width 769px to 1007px*/
@@ -168,15 +180,39 @@ header a, footer a {
     }
     
     #info h3 {
-        font-size: 170%;
+        font-size: 150%;
     }
     
     #info p {
-        font-size: 100%;
+        font-size: 90%;
+    }
+
+    #info-container-games {
+        width: 70%;
     }
     
-    #info-container-games, #info-container-social, #info-container-skills {
-        width: 80%;
+    #info-container-social {
+        width: 70%;
+        border-radius: 50px 50px 50px 50px;
+        margin: 0 15%;
+    }
+    
+    #info-container-skills {
+        width: 70%;
+        border-radius: 50px 0px 0px 50px;
+        float: right;
+    }
+
+    #info-social-text {
+        text-align: center;
+        margin: 120px 0px 0px;
+        border-radius: 0px 0px 40px 40px;
+    }
+
+    #info-skills-text {
+        text-align: right;
+        margin: 120px 0px 0px;
+        border-radius: 0px 0px 0px 40px;
     }
 }
 
@@ -193,22 +229,16 @@ header a, footer a {
     
     /* hero image */
     #hero-image {
-        height: 500px;
+        height: 400px;
     }
     
     /* Welcome */
     #welcome {
-        position: absolute;
-        bottom: 20%;
-        left: 25%;
-        width: 50%;
-        height: 20%;
-        text-align: center;
+        height: 75px;
     }
     
     #welcome h2 {
         font-size: 225%;
-        padding-top: 25px;
     }
     
     #welcome p {
@@ -227,25 +257,10 @@ header a, footer a {
     
     #info-container-social {
         width: 60%;
-        border-radius: 50px 50px 50px 50px;
         margin: 0 20%;
     }
     
     #info-container-skills {
         width: 60%;
-        border-radius: 50px 0px 0px 50px;
-        float: right;
-    }
-
-    #center-div-text {
-        text-align: center;
-        margin: 120px 0px 0px;
-        border-radius: 0px 0px 40px 40px;
-    }
-
-    #right-div-text {
-        text-align: right;
-        margin: 120px 0px 0px;
-        border-radius: 0px 0px 0px 40px;
     }
 }
