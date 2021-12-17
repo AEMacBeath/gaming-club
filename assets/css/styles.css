@@ -15,7 +15,9 @@ body {
 }
 
 /* headings */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: uppercase;
 }
 
@@ -27,7 +29,8 @@ header, footer {
     background-color: rgba(0, 0, 139, 0.7);
 }
 
-header a, footer a {
+header a,
+footer a {
     text-decoration: none;
     color: white;
 }
@@ -39,14 +42,16 @@ header a, footer a {
     font-size: 125%;
 }
 
-#menu, #social {
+#menu,
+#social {
     position: absolute;
     bottom: 2px;
     left: 4px;
     font-size: 75%;
 }
 
-#menu li, #social li {
+#menu li,
+#social li {
     display: inline;
     padding-right: 4px;
 }
@@ -143,12 +148,16 @@ header a, footer a {
 }
 
 /* events */
+#events {
+    height: 1100px;
+}
+
 #weekly-events-container {
     position: relative;
     height: 500px;
     border: 10px solid rgba(0, 0, 139, 0.7);
     border-radius: 0px 50px 50px 0px;
-    background: url(../images/pc-gaming.jpeg) no-repeat center/cover;
+    background: url(../images/pc-gaming.jpeg) no-repeat bottom/cover;
     margin: 10px 0px;
 }
 
@@ -177,16 +186,19 @@ header a, footer a {
     width: 100%;
     height: 250px;
     border-radius: 0px 0px 0px 40px;
+    text-align: right;
 }
 
 /* responsive design medium devices - width 769px to 1007px*/
 @media screen and (min-width: 769px) {
+
     /* header and footer */
     .logo {
         font-size: 175%;
     }
-    
-    #menu, #social {
+
+    #menu,
+    #social {
         position: absolute;
         bottom: 2px;
         right: 0px;
@@ -198,7 +210,7 @@ header a, footer a {
     #hero-image {
         background: url(../images/monopoly-large.jpeg) no-repeat center/cover;
     }
-    
+
     /* Welcome */
     #welcome {
         position: relative;
@@ -206,20 +218,20 @@ header a, footer a {
         background-color: rgba(0, 0, 139, 0.7);
         text-align: center;
     }
-    
+
     #welcome h2 {
         font-size: 170%;
     }
-    
+
     /* club information */
     #info {
         height: 700px;
     }
-    
+
     #info h3 {
         font-size: 150%;
     }
-    
+
     #info p {
         font-size: 90%;
     }
@@ -227,13 +239,13 @@ header a, footer a {
     #info-container-games {
         width: 70%;
     }
-    
+
     #info-container-social {
         width: 70%;
         border-radius: 50px 50px 50px 50px;
         margin: 0 15%;
     }
-    
+
     #info-container-skills {
         width: 70%;
         border-radius: 50px 0px 0px 50px;
@@ -251,53 +263,100 @@ header a, footer a {
         margin: 120px 0px 0px;
         border-radius: 0px 0px 0px 40px;
     }
+
+    /* events */
+    #weekly-events-container {
+        width: 70%;
+    }
+
+    #monthly-events-container {
+        width: 70%;
+        float: right;
+    }
 }
 
 /* responsive design large devices - width 1008px and up*/
 @media screen and (min-width: 1008px) {
+
     /* header and footer */
     .logo {
         font-size: 225%;
     }
-    
-    #menu, #social {
+
+    #menu,
+    #social {
         font-size: 125%;
     }
-    
+
     /* hero image */
     #hero-image {
         height: 400px;
     }
-    
+
     /* Welcome */
     #welcome {
         height: 75px;
     }
-    
+
     #welcome h2 {
         font-size: 225%;
     }
-    
+
     #welcome p {
         font-size: 125%;
     }
-    
+
     /* club information */
     #info {
         position: relative;
         height: 700px;
     }
-    
+
     #info-container-games {
         width: 60%;
     }
-    
+
     #info-container-social {
         width: 60%;
         margin: 0 20%;
     }
-    
+
     #info-container-skills {
         width: 60%;
+    }
+
+    /* events */
+    #events {
+        height: 550px;
+    }
+
+    #weekly-events-container {
+        height: 500px;
+        width: 45%;
+        float: left;
+    }
+    
+    #weekly-events-text {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 139, 0.7);
+        width: 100%;
+        height: 250px;
+        border-radius: 0px 0px 40px 0px;
+    }
+    
+    #monthly-events-container {
+        height: 500px;
+        width: 45%;
+    }
+    
+    #monthly-events-text {
+        position: absolute;
+        bottom: 0;
+        background-color: rgba(0, 0, 139, 0.7);
+        width: 100%;
+        height: 250px;
+        border-radius: 0px 0px 0px 40px;
+        text-align: right;
     }
 }
