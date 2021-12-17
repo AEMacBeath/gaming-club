@@ -35,7 +35,21 @@
         <div id="contact-form-container">
             <div id="contact-form">
                 <h3>Contact us</h3>
-                <p>Content to be added</p>
+                <form action="#">
+                    <label for="fname">First Name: </label>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last Name: </label>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required><br>
+                    <input type="radio" name="member-type" id="new-memeber">
+                    <label for="new-memeber">New Member</label><br>
+                    <input type="radio" name="member-type" id="existing-memeber">
+                    <label for="existing-memeber">Existing Member</label><br>
+                    <label for="contact-details">Message: </label>
+                    <textarea name="contact-details" id="contact-details" cols="30" rows="10"></textarea><br>
+                    <input type="submit" id="submit" name="submit">
+                </form>
             </div>
         </div>
     </section>
