@@ -82,13 +82,13 @@ header a, footer a {
     height: 700px;
 }
 
-#info h3 {
+#info h3, #weekly-events-text h3 {
     padding: 0px 4px 5px;
     padding-bottom: 5px;
     font-size: 120%;
 }
 
-#info p {
+#info p, #weekly-events-text p {
     padding: 0px 4px;
     font-size: 80%;
 }
@@ -140,6 +140,19 @@ header a, footer a {
     text-align: right;
     margin: 120px 0px 0px;
     border-radius: 0px 0px 0px 40px;
+}
+
+/* events */
+#weekly-events-container {
+    height: 500px;
+    width: 100%;
+    background: url(../images/pc-gaming.jpeg) no-repeat center/cover;
+}
+
+#monthly-events-container {
+    height: 500px;
+    width: 100%;
+    background: url(../images/group-playing-twister.jpeg) no-repeat center/cover;
 }
 
 /* responsive design medium devices - width 769px to 1007px*/
