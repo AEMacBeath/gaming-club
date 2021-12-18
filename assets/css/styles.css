@@ -85,7 +85,7 @@ footer a {
 /* club information */
 #info {
     position: relative;
-    height: 700px;
+    height: auto;
 }
 
 #info h3 {
@@ -150,7 +150,7 @@ footer a {
 
 /* events */
 #events {
-    height: 1100px;
+    height: auto;
 }
 
 #weekly-events-container {
@@ -193,7 +193,7 @@ footer a {
 /* contact */
 #contact {
     padding: 10px;
-    height: 400px;
+    height: auto;
     background: url(../images/ace-cards.jpeg) no-repeat bottom / cover;
 }
 
@@ -216,9 +216,11 @@ footer a {
     margin: 5px 0px;
 }
 
-input, textarea {
+input,
+textarea {
     background-color: rgba(0, 0, 0, 0.5);
     border: white solid 1px;
+    color: white;
 }
 
 /* responsive design medium devices - width 769px to 1007px*/
@@ -341,7 +343,6 @@ input, textarea {
     /* club information */
     #info {
         position: relative;
-        height: 700px;
     }
 
     #info-container-games {
@@ -358,9 +359,6 @@ input, textarea {
     }
 
     /* events */
-    #events {
-        height: 550px;
-    }
 
     #weekly-events-container {
         height: 500px;
@@ -390,5 +388,10 @@ input, textarea {
         height: 250px;
         border-radius: 0px 0px 0px 40px;
         text-align: right;
+    }
+
+    /* contact */
+    #contact {
+        background: url(../images/single-ace-card.jpeg) no-repeat center/cover;
     }
 }
