@@ -69,7 +69,7 @@ footer a {
     position: relative;
     width: 100%;
     background-color: rgba(0, 0, 139, 0.7);
-    text-align: right;
+    text-align: center;
 }
 
 #welcome h2 {
@@ -199,6 +199,7 @@ footer a {
 
 .contact-form {
     padding: 5%;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .contact-form h3 {
@@ -213,14 +214,14 @@ footer a {
 
 input,
 textarea {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
     border: white solid 1px;
     color: white;
 }
 
 #contact-response {
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* responsive design extra small devices - max-width 374px */
@@ -263,7 +264,6 @@ textarea {
         position: relative;
         width: 100%;
         background-color: rgba(0, 0, 139, 0.7);
-        text-align: center;
     }
 
     #welcome h2 {
@@ -413,6 +413,38 @@ textarea {
     /* contact */
     #contact {
         background: url(../images/single-ace-card.jpeg) no-repeat center/cover;
+    }
+
+    .contact-form {
+        font-size: 150%;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 500px;
+    }
+    
+    .contact-form h3 {
+        padding-bottom: 10px;
+    }
+    
+    #submit {
+        width: 150px;
+        color: white;
+        margin: 5px 0px;
+        font-size: 75%;
+    }
+    
+    input {
+        height: 25px;
+        width: 250px;
+    }
+
+    textarea {
+        height: 200px;
+        width: 500px;
+    }
+    
+    #contact-response {
+        height: 400px;
+        background-color: rgba(0, 0, 0, 0.5);
     }
 }
 
