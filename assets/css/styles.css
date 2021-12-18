@@ -197,16 +197,11 @@ footer a {
     background: url(../images/ace-cards.jpeg) no-repeat bottom / cover;
 }
 
-#contact-form-container {
-    position: relative;
-    border-radius: 50px;
-}
-
-#contact-form {
+.contact-form {
     padding: 5%;
 }
 
-#contact-form h3 {
+.contact-form h3 {
     padding-bottom: 10px;
 }
 
@@ -221,6 +216,11 @@ textarea {
     background-color: rgba(0, 0, 0, 0.5);
     border: white solid 1px;
     color: white;
+}
+
+#contact-response {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* responsive design medium devices - width 769px to 1007px*/
