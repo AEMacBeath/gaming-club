@@ -299,6 +299,10 @@ textarea {
     }
 
     /* events */
+    #events {
+        height: 1075px;
+    }
+
     #weekly-events-container {
         width: 70%;
     }
@@ -359,6 +363,9 @@ textarea {
     }
 
     /* events */
+    #events {
+        height: 540px;
+    }
 
     #weekly-events-container {
         height: 500px;
