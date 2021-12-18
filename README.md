@@ -18,7 +18,11 @@ The website users will be able to find out information about the club, events an
 - The header clearly shows the sections and pages of the site that the users can easily navigate to. 
 - The same header is included on all pages in the site. 
 
-<!-- add screenshot of header -->
+Large devices<br>
+![header-screenshot](/screenshots/header.png)
+
+Small to Medium devices<br>
+![small-medium-header-screenshot](/screenshots/sm-header.png)
 
 ### Main image and welcome banner
 
@@ -28,7 +32,11 @@ The website users will be able to find out information about the club, events an
 - There is a banner at the bottom of the image welcoming users to the club. 
 - The banner has a navy background with white text to match the header.
 
-<!-- add screenshot of image and welcome banner -->
+Large devices<br>
+![main-image-welcome-screenshot](/screenshots/main-image-welcome.png)
+
+Small to Medium devices<br>
+![small-medium-main-image-welcome-screenshot](/screenshots/sm-main-image-welcome.png)
 
 ### Club Information
 
@@ -37,7 +45,11 @@ The website users will be able to find out information about the club, events an
 - This section is to give the users a brief overview of what the club does.
 - The section has been styled with the same navy and white contrast as the other features on the site. 
 
-<!-- add screenshot of image and welcome banner -->
+Large devices<br>
+![club-information-screenshot](/screenshots/info.png)
+
+Small to Medium devices<br>
+![small-medium-club-information-screenshot](/screenshots/sm-info.png)
 
 ### Footer
 
@@ -46,11 +58,23 @@ The website users will be able to find out information about the club, events an
 - Each link is diplayed as the site name with a Font Awesome icon. 
 - The footer makes users aware of the clubs social media presence and allows them to easily access the sites. 
 
+Large devices<br>
+![footer-screenshot](/screenshots/footer.png)
+
+Small to Medium devices<br>
+![small-medium-footer-screenshot](/screenshots/sm-footer.png)
+
 ### Events
 
 - The events page is made up of 2 main areas - WEEKLY EVENT and MONTHLY EVENTS
 - This gives the user inofrmation about the club meet-ups and online events. 
 - Each area is clearly seperated and contains an image relevant to the content.
+
+Large devices<br>
+![events-screenshot](/screenshots/events.png)
+
+Small to Medium devices<br>
+![small-medium-events-screenshot](/screenshots/sm-events.png)
 
 ### Contact
 
@@ -58,6 +82,12 @@ The website users will be able to find out information about the club, events an
 - There is an image of a black and red ace card behind the form.
     - On small to medium devices the image changes to 4 black, red and white ace cards.
 - When the form is submitted the user is taken to a thank you message which informs them that someone will respond via email. 
+
+Large devices<br>
+![contact-screenshot](/screenshots/contact.png)
+
+Small to Medium devices<br>
+![small-medium-contact-screenshot](/screenshots/sm-contact.png)
 
 ## Testing
 
