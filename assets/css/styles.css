@@ -206,7 +206,7 @@ footer a {
 }
 
 #submit {
-    width: 25%;
+    width: 100px;
     color: white;
     margin: 5px 0px;
 }
@@ -400,5 +400,17 @@ textarea {
     /* contact */
     #contact {
         background: url(../images/single-ace-card.jpeg) no-repeat center/cover;
+    }
+}
+
+/* responsive design extra small devices - max-width 374px */
+@media screen and (max-width: 574px) {
+    /* header and footer */
+    .logo {
+        font-size: 110%;
+    }
+
+    .info-text {
+        font-size: 95%;
     }
 }
