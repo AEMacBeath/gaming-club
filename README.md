@@ -91,17 +91,15 @@ Small to Medium devices<br>
 
 ## Testing
 
-<!--
-Other browsers
-responsive
-navigation and other links work
-all text is readable, images aren't blury
-forms work
--->
+- The site has been test in Chrome, Edge and Safari with no failures.
+- Using the dev tools device toolbar i confirmed that this site is reponsive, looks good and functions on standard screen sizes.
+- The form has been tested and works as expected with the mandatory fields. 
+- All text is readable and the images aren't blurry.
+- Navigation and social media links work.
 
 ### Bugs
 
-<!-- what borke, how did i fix it (solved and unsolved) -->
+No bugs
 
 ### Validator Testing
 
