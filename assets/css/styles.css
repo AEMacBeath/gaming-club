@@ -222,7 +222,7 @@ textarea {
 #contact-response {
     height: 400px;
     background-color: rgba(0, 0, 0, 0.4);
-    font-size: 125%;
+    font-size: 100%;
 }
 
 /* responsive design extra small devices - max-width 374px */

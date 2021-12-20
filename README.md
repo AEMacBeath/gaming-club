@@ -1,11 +1,11 @@
-# Gamers Club
+# Shetland Gamers Club
 
-The Gamers Club website is for Shetland based adults, over 18, looking for a local gaming club. 
+The Shetland Gamers Club website is for Shetland based adults, over 18, looking for a local gaming club. 
 The Gaming Club offers a social, challenging and fun environment for people looking to team up or compete with others.
 
-The website users will be able to find out information about the club, events and contact the club. This site is targated at adults in Shetland who are looking to expand their gaming circle, learn knew skills and help others advance their abilities. 
+The website users will be able to find out information about the club, events and contact the club. This site is targated at adults in Shetland who are looking to expand their gaming circle, learn new skills and help others advance their abilities. 
 
-<!-- add screenshot of homepage -->
+![am-i-responsive-homepage-screenshot](/screenshots/am-i-responsive-homepage.png)
 
 ## Features
 
@@ -14,7 +14,7 @@ The website users will be able to find out information about the club, events an
 - The page header shows the club logo, SHETLAND GAMERS CLUB, on the left which links to the top of the page.
 - The site navigaion, HOME / EVENTS / CONTACT, are also in included on the right hand side of the header.
     - On small to medium devices the navigation elements move under the club logo.
-- All text in the header is in white capital letters that contrasts with the navy background to make it stand out.
+- All text in the header is white which contrasts with the navy background to make it stand out.
 - The header clearly shows the sections and pages of the site that the users can easily navigate to. 
 - The same header is included on all pages in the site. 
 
@@ -78,16 +78,22 @@ Small to Medium devices<br>
 
 ### Contact
 
-- The contact page is made up of an image and a form users can use to contact the club.
+- The contact page contains a form which allows users to easil contact the club.
+- When the form is submitted the user is taken to a thank you message which informs them that someone will respond via email. 
 - There is an image of a black and red ace card behind the form.
     - On small to medium devices the image changes to 4 black, red and white ace cards.
-- When the form is submitted the user is taken to a thank you message which informs them that someone will respond via email. 
 
-Large devices<br>
+Large devices - Contact form<br>
 ![contact-screenshot](/screenshots/contact.png)
 
-Small to Medium devices<br>
+Large devices - Contact response<br>
+![contact-response-screenshot](/screenshots/contact-response.png)
+
+Small to Medium devices - Contact form<br>
 ![small-medium-contact-screenshot](/screenshots/sm-contact.png)
+
+Small to Medium devices - Contact form<br>
+![small-medium-contact-response-screenshot](/screenshots/sm-contact-response.png)
 
 ## Testing
 
@@ -103,15 +109,27 @@ No bugs
 
 ### Validator Testing
 
-<!-- html, css, accessibility, results screen shots-->
+- HTML - No errors returned when passing through the W3C HTML Validator.
+
+- CSS - No errors returned when passing throught the W3C CSS Validator (Jigsaw).
+
+- Accessibility
+    - The font used is easily readable, contrasts with backgrounds and is accessible
+    - This has been tested using Lighthouse in devtools. 
+
+![lighthouse-screenshot](/screenshots/lighthouse.png)
 
 ## Deployment
 
-<!-- Deloyed to Github pages - explain how and include link to site -->
+This site was deployed to GitHub pages by following the below steps:
+- In the GitHub repository navigate to settings
+- Select the Pages tab from the menu
+- Select the main branch from the source section drop down
+- Click Save to generate a link to the compeleted website
+
+Link to deployed website - [Shetland Gamers Club](https://aemacbeath.github.io/gaming-club/)
 
 ## Credits
-
-### Content
 
 - The icons used in the footer are from https://fontawesome.com/v4.7/
 - All images taken from https://www.pexels.com/
