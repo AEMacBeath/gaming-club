@@ -171,6 +171,14 @@ footer a {
     border-radius: 0px 0px 40px 0px;
 }
 
+#weekly-events-text > ul {
+    padding: 10px 15px;
+}
+
+#weekly-events-text ul {
+    padding: 5px 15px;
+}
+
 #monthly-events-container {
     position: relative;
     height: 500px;
@@ -183,11 +191,18 @@ footer a {
 #monthly-events-text {
     position: absolute;
     bottom: 0;
-    background-color: rgba(0, 0, 139, 0.7);
+    background-color: rgba(0, 0, 139, 0.9);
     width: 100%;
     height: 250px;
     border-radius: 0px 0px 0px 40px;
-    text-align: right;
+}
+
+#monthly-events-text > ul {
+    padding: 10px 15px;
+}
+
+#monthly-events-text ul {
+    padding: 5px 15px;
 }
 
 /* contact */
