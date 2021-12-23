@@ -1,11 +1,39 @@
 # Shetland Gamers Club
 
 The Shetland Gamers Club website is for Shetland based adults, over 18, looking for a local gaming club. 
-The Gaming Club offers a social, challenging and fun environment for people looking to team up or compete with others.
+The club offers a social, challenging and fun environment for people looking to team up or compete with others.
 
 The website users will be able to find out information about the club, events and contact the club. This site is targated at adults in Shetland who are looking to expand their gaming circle, learn new skills and help others advance their abilities. 
 
+Link to deployed website - [Shetland Gamers Club](https://aemacbeath.github.io/gaming-club/)
+
 ![am-i-responsive-homepage-screenshot](/screenshots/am-i-responsive-homepage.png)
+
+## Table of Contents
+
+1. [User Stories](#user-stories)
+2. [Features](#features)
+    - [Header](#header)
+    - [Main image and welcome banner](#main-image-and-welcome-banner)
+    - [Club Information](#club-information)
+    - [Footer](#footer)
+    - [Events](#events)
+    - [Contact](#contact)
+3. [Testing](#testing)
+    - [Bugs](#bugs)
+    - [Validator Testing](#validator-testing)
+4. [Deployment](#deployment)
+5. [Credits](#credits)
+6. [Technologies Used](#technologies-used)
+
+## User Stories
+
+- As a user of this site i can 
+    - easily find out information about the club.
+    - use the navigations links to move around the site.
+    - contact the club using the contact form. 
+    - see information about events. 
+    - access the clubs social media using the links in the footer.
 
 ## Features
 
@@ -18,10 +46,10 @@ The website users will be able to find out information about the club, events an
 - The header clearly shows the sections and pages of the site that the users can easily navigate to. 
 - The same header is included on all pages in the site. 
 
-Large devices<br>
+**Large devices**<br>
 ![header-screenshot](/screenshots/header.png)
 
-Small to Medium devices<br>
+**Small to Medium devices**<br>
 ![small-medium-header-screenshot](/screenshots/sm-header.png)
 
 ### Main image and welcome banner
@@ -32,10 +60,10 @@ Small to Medium devices<br>
 - There is a banner at the bottom of the image welcoming users to the club. 
 - The banner has a navy background with white text to match the header.
 
-Large devices<br>
+**Large devices**<br>
 ![main-image-welcome-screenshot](/screenshots/main-image-welcome.png)
 
-Small to Medium devices<br>
+**Small to Medium devices**<br>
 ![small-medium-main-image-welcome-screenshot](/screenshots/sm-main-image-welcome.png)
 
 ### Club Information
@@ -45,10 +73,10 @@ Small to Medium devices<br>
 - This section is to give the users a brief overview of what the club does.
 - The section has been styled with the same navy and white contrast as the other features on the site. 
 
-Large devices<br>
+**Large devices**<br>
 ![club-information-screenshot](/screenshots/info.png)
 
-Small to Medium devices<br>
+**Small to Medium devices**<br>
 ![small-medium-club-information-screenshot](/screenshots/sm-info.png)
 
 ### Footer
@@ -58,10 +86,10 @@ Small to Medium devices<br>
 - Each link is diplayed as the site name with a Font Awesome icon. 
 - The footer makes users aware of the clubs social media presence and allows them to easily access the sites. 
 
-Large devices<br>
+**Large devices**<br>
 ![footer-screenshot](/screenshots/footer.png)
 
-Small to Medium devices<br>
+**Small to Medium devices**<br>
 ![small-medium-footer-screenshot](/screenshots/sm-footer.png)
 
 ### Events
@@ -70,10 +98,10 @@ Small to Medium devices<br>
 - This gives the user inofrmation about the club meet-ups and online events. 
 - Each area is clearly seperated and contains an image relevant to the content.
 
-Large devices<br>
+**Large devices**<br>
 ![events-screenshot](/screenshots/events.png)
 
-Small to Medium devices<br>
+**Small to Medium devices**<br>
 ![small-medium-events-screenshot](/screenshots/sm-events.png)
 
 ### Contact
@@ -83,16 +111,16 @@ Small to Medium devices<br>
 - There is an image of a black and red ace card behind the form.
     - On small to medium devices the image changes to 4 black, red and white ace cards.
 
-Large devices - Contact form<br>
+**Large devices - Contact form**<br>
 ![contact-screenshot](/screenshots/contact.png)
 
-Large devices - Contact response<br>
+**Large devices - Contact response**<br>
 ![contact-response-screenshot](/screenshots/contact-response.png)
 
-Small to Medium devices - Contact form<br>
+**Small to Medium devices - Contact form**<br>
 ![small-medium-contact-screenshot](/screenshots/sm-contact.png)
 
-Small to Medium devices - Contact form<br>
+**Small to Medium devices - Contact form**<br>
 ![small-medium-contact-response-screenshot](/screenshots/sm-contact-response.png)
 
 ## Testing
@@ -109,9 +137,9 @@ No bugs
 
 ### Validator Testing
 
-- HTML - No errors returned when passing through the W3C HTML Validator.
+- HTML - No errors returned when passing through the [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Faemacbeath.github.io%2Fgaming-club%2F).
 
-- CSS - No errors returned when passing throught the W3C CSS Validator (Jigsaw).
+- CSS - No errors returned when passing throught the [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Faemacbeath.github.io%2Fgaming-club%2Fassets%2Fcss%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
 
 - Accessibility
     - The font used is easily readable, contrasts with backgrounds and is accessible
@@ -133,3 +161,10 @@ Link to deployed website - [Shetland Gamers Club](https://aemacbeath.github.io/g
 
 - The icons used in the footer are from https://fontawesome.com/v4.7/
 - All images taken from https://www.pexels.com/
+
+## Technologies used
+
+- HTML
+- CSS
+- GitHub
+- Gitpod
